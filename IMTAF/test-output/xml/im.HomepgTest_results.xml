@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.628">
+  <properties />
+  
+  
+            <testcase name="TC005_ClickDispenseCollect" time="0.129" classname="im.HomepgTest" />
+                <testcase name="TC002_Login" time="7.111" classname="im.HomepgTest" />
+                <testcase name="TC003_ClickAllDevice" time="0.081" classname="im.HomepgTest" />
+                <testcase name="TC004_ClickMaintainRepair" time="0.454" classname="im.HomepgTest" />
+                <testcase name="TC001_LaunchURL" time="3.413" classname="im.HomepgTest" />
+                <testcase name="TC006_ClickSurveyReport" time="0.261" classname="im.HomepgTest" />
+                <testcase name="TC007_ClickDeviceDashboard" time="0.179" classname="im.HomepgTest" />
+      
+</testsuite>
