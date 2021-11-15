@@ -1,77 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
            tests="2"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="26.009">
+           time="7.195">
   <properties />
-            <testcase name="TC002_CreateNewDevice" time="25.899" classname="im.AllDeviceTest">
-                <failure type="org.openqa.selenium.ElementClickInterceptedException"
-                  message="element click intercepted: Element &lt;span class=&quot;ui-button-text ui-clickable&quot;&gt;...&lt;/span&gt; is not clickable at point (1426, 49). Other element would receive the click: &lt;li _ngcontent-fej-c5=&quot;&quot; aria-haspopup=&quot;true&quot; class=&quot;nav-item fill-width dropdown-toggle dropdown&quot; id=&quot;surround&quot; ngbdropdown=&quot;&quot; ngbdropdowntoggle=&quot;&quot; title=&quot;Notification&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/li&gt;
-  (Session info: chrome=95.0.4638.54)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;IB-SEZ-LAP-793&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0ae7372f31246a4f39b352f1e0c0fed5"
-              >
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="ui-button-text ui-clickable">...</span> is not clickable at point (1426, 49). Other element would receive the click: <li _ngcontent-fej-c5="" aria-haspopup="true" class="nav-item fill-width dropdown-toggle dropdown" id="surround" ngbdropdown="" ngbdropdowntoggle="" title="Notification" aria-expanded="false">...</li>
-  (Session info: chrome=95.0.4638.54)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IB-SEZ-LAP-793', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0ae7372f31246a4f39b352f1e0c0fed5
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-  pages.AllDevice.CreateNewDevice(AllDevice.java:32)
-  im.AllDeviceTest.TC002_CreateNewDevice(AllDeviceTest.java:36)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:568)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-  org.testng.TestRunner.privateRun(TestRunner.java:794)
-  org.testng.TestRunner.run(TestRunner.java:596)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-  org.testng.SuiteRunner.run(SuiteRunner.java:276)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-  org.testng.TestNG.runSuites(TestNG.java:1063)
-  org.testng.TestNG.run(TestNG.java:1031)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="TC001_ClickAllDevice" time="0.110" classname="im.AllDeviceTest" />
+            <testcase name="TC002_CreateNewDevice" time="7.035" classname="im.AllDeviceTest" />
+                <testcase name="TC001_ClickAllDevice" time="0.160" classname="im.AllDeviceTest" />
       
 </testsuite>

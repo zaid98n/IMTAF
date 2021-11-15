@@ -8,10 +8,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="im.HomepgTest"/>
-<!--       <class name="im.DeviceDashboardTest"/> -->
+      <class name="im.DeviceDashboardTest"/>
       <class name="im.AllDeviceTest"/>
-<!--       <class name="im.MaintainRepairTest"/> -->
-<!--       <class name="im.DispenseCollectTest"/> -->
+      <class name="im.MaintainRepairTest"/>
+      <class name="im.DispenseCollectTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

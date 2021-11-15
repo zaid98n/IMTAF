@@ -23,12 +23,7 @@ public class AllDevice {
 	public void CreateNewDevice() throws IOException, InterruptedException, AWTException {
 		
 		BrowserFactory.LaunchBrowser().manage().timeouts().implicitlyWait(Long.parseLong(ReadConfig.getValue("implicitwait")), TimeUnit.SECONDS);
-//		String[] dname = {"Device A","Device B","Device C","Device D","Device E","Device F","Device G","Device H","Device I","Device J","Device K","Device L","Device M","Device N"};
-//		String[] model = {"1001","1002","1003","1004","1005","1006","1007","1008","1009","1010","1011","1012","1013","1014"};
-//		String[] serial = {"01","02","03","04","05","06","07","08","09","010","011","012","013","014"};
-//		String[] make = {"Lutron","Extech","Fluke","Testo","Lutron","Extech","Fluke","Testo","Lutron","Extech","Fluke","Testo","Lutron","Extech"};
-		
-//		for(int i = 0; i<dname.length; i++) {
+
 		BrowserFactory.LaunchBrowser().findElement(By.xpath("/html/body/app-root/app-layout/div/section/app-all-device/div/div[1]/div[2]/div[2]/div/button/span")).click();
 		Thread.sleep(1000);
 		

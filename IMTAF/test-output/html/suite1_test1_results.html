@@ -12,84 +12,11 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 38.023s
+  Test duration: 18.540s
 </p>
 
 
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">im.AllDeviceTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  TC002_CreateNewDevice
-      </td>
-  <td class="duration">
-    25.899s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;ui-button-text ui-clickable&quot;&gt;...&lt;/span&gt; is not clickable at point (1426, 49). Other element would receive the click: &lt;li _ngcontent-fej-c5=&quot;&quot; aria-haspopup=&quot;true&quot; class=&quot;nav-item fill-width dropdown-toggle dropdown&quot; id=&quot;surround&quot; ngbdropdown=&quot;&quot; ngbdropdowntoggle=&quot;&quot; title=&quot;Notification&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/li&gt;<br/>
-&nbsp; (Session info: chrome=95.0.4638.54)<br/>
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
-System info: host: &apos;IB-SEZ-LAP-793&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
-              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
-              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
-              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
-              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
-              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />
-              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />
-              pages.AllDevice.CreateNewDevice(AllDevice.java:32)<br />
-              im.AllDeviceTest.TC002_CreateNewDevice(AllDeviceTest.java:36)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
-      </table>
 
 
   <table class="resultsTable">
@@ -103,7 +30,21 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC001_ClickAllDevice
       </td>
   <td class="duration">
-    0.110s
+    0.160s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC002_CreateNewDevice
+      </td>
+  <td class="duration">
+    7.035s
   </td>
   <td class="result">
         
@@ -121,7 +62,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC001_LaunchURL
       </td>
   <td class="duration">
-    3.413s
+    3.142s
   </td>
   <td class="result">
         
@@ -135,7 +76,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC002_Login
       </td>
   <td class="duration">
-    7.111s
+    6.717s
   </td>
   <td class="result">
         
@@ -149,7 +90,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC003_ClickAllDevice
       </td>
   <td class="duration">
-    0.081s
+    0.104s
   </td>
   <td class="result">
         
@@ -163,7 +104,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC004_ClickMaintainRepair
       </td>
   <td class="duration">
-    0.454s
+    0.667s
   </td>
   <td class="result">
         
@@ -177,7 +118,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC005_ClickDispenseCollect
       </td>
   <td class="duration">
-    0.129s
+    0.137s
   </td>
   <td class="result">
         
@@ -191,7 +132,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC006_ClickSurveyReport
       </td>
   <td class="duration">
-    0.261s
+    0.265s
   </td>
   <td class="result">
         
@@ -205,7 +146,7 @@ Session ID: 0ae7372f31246a4f39b352f1e0c0fed5</b></a><br />
                   TC007_ClickDeviceDashboard
       </td>
   <td class="duration">
-    0.179s
+    0.304s
   </td>
   <td class="result">
         
